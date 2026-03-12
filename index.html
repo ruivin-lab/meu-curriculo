@@ -3,69 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Harryson Hussem | Portfólio</title>
+    <title>Harryson Hussem | Currículo</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@300;400;600&display=swap');
+        body { 
+            background: radial-gradient(circle at 10% 20%, #06b6d4, #1e40af, #0f172a); 
+            min-height: 100vh; 
+            font-family: 'SF Pro Display', sans-serif; 
+        }
+        .aqua-glass { 
+            background: rgba(255, 255, 255, 0.08); 
+            backdrop-filter: blur(25px); 
+            border: 1px solid rgba(255, 255, 255, 0.2); 
+            border-radius: 40px; 
+        }
+    </style>
 </head>
-<body class="bg-gray-50 text-gray-800">
+<body class="p-6 md:p-12">
 
-    <header class="bg-blue-900 text-white p-10 text-center">
-        <h1 class="text-4xl font-bold">Harryson Hussem de Almeida Silva</h1>
-        <p class="text-xl mt-2">Graduando em Análise e Desenvolvimento de Sistemas | Suporte TI</p>
-        <div class="mt-4">
-            <p>📍 Presidente Dutra - MA [cite: 2]</p>
-            <p>📧 almeida.hussem@gmail.com [cite: 4]</p>
-            <p>📞 (99) 9 84644796 [cite: 3]</p>
+    <div class="max-w-4xl mx-auto aqua-glass p-12 text-white shadow-2xl">
+        <header class="mb-16 border-b border-white/10 pb-10">
+            <h1 class="text-6xl font-bold tracking-tighter mb-4">Currículo</h1>
+            <h2 class="text-2xl text-cyan-300 font-light">Harryson Hussem de Almeida Silva</h2>
+        </header>
+
+        <section class="grid md:grid-cols-3 gap-6 mb-16">
+            <a href="https://maps.app.goo.gl/hGz7q9WbS9T9M9A9A" target="_blank" class="p-4 bg-white/5 rounded-2xl hover:bg-white/10 transition">
+                <i class="fa-solid fa-location-dot text-cyan-400 mb-2"></i>
+                <p class="text-sm">Rua Presidente Castelo Branco, Presidente Dutra - MA</p>
+            </a>
+            <a href="https://wa.me/5599984644796" target="_blank" class="p-4 bg-white/5 rounded-2xl hover:bg-white/10 transition">
+                <i class="fa-brands fa-whatsapp text-green-400 mb-2"></i>
+                <p class="text-sm">(99) 9 84644796</p>
+            </a>
+            <a href="mailto:almeida.hussem@gmail.com" class="p-4 bg-white/5 rounded-2xl hover:bg-white/10 transition">
+                <i class="fa-solid fa-envelope text-blue-400 mb-2"></i>
+                <p class="text-sm">almeida.hussem@gmail.com</p>
+            </a>
+        </section>
+
+        <section class="mb-16">
+            <h3 class="text-3xl font-bold mb-8 flex items-center"><i class="fa-solid fa-briefcase mr-4 text-cyan-400"></i>Experiência Profissional</h3>
+            <div class="space-y-10">
+                <div>
+                    <h4 class="text-xl font-semibold">Suporte TI – Mateus Supermercados S.A <span class="text-sm text-gray-400 font-normal">| 04/2025 – 02/2026</span></h4>
+                    <p class="mt-3 text-gray-200 leading-relaxed text-sm">Atuei na Central de Processamento de Dados dando suporte de informática, garantindo a continuidade das vendas e rotinas administrativas através da manutenção de servidores, redes e automação comercial (PDVs, balanças e coletores), além de realizar o atendimento consultivo a colaboradores e a gestão de relatórios e planilhas via pacote Office, Gestão de qualidade de reuniões, Atendimento e recepção aos clientes e resolução de problema em geral.</p>
+                </div>
+                <div>
+                    <h4 class="text-xl font-semibold">Docente – Profissionalize+ <span class="text-sm text-gray-400 font-normal">| 01/2024 - 12/2024</span></h4>
+                    <p class="mt-3 text-gray-200 leading-relaxed text-sm">Instrutor de Informática e Gestão Tecnológica, focado na capacitação profissional de jovens para o mercado de trabalho. Com sólida expertise em rotinas administrativas, ministrei treinamentos avançados no Pacote Office (Excel, Word, PowerPoint e Access), preparando alunos para a organização de dados e processos de escritório.</p>
+                </div>
+                <div>
+                    <h4 class="text-xl font-semibold">Técnico em Informática – Autônomo <span class="text-sm text-gray-400 font-normal">| 03/2018 – 12/2023</span></h4>
+                    <p class="mt-3 text-gray-200 leading-relaxed text-sm">Atuei como técnico em TI realizando manutenção, montagem, reset de BIOS, reparos, formatação e recuperação de dados apagados. Utilização da ferramenta Linux, principalmente o "shred" para a sobrescrita segura de blocos em HD's e SSD's, tanto em computadores pessoais quanto em equipamentos das escolas municipais.</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="grid md:grid-cols-2 gap-12">
+            <section>
+                <h3 class="text-2xl font-bold mb-6 flex items-center"><i class="fa-solid fa-graduation-cap mr-4 text-cyan-400"></i>Formação</h3>
+                <div class="bg-white/5 p-6 rounded-2xl">
+                    <h4 class="font-semibold text-lg">Análise e Desenvolvimento de Sistemas</h4>
+                    <p class="text-sm text-cyan-200">Uniasselvi – Presidente Dutra – MA</p>
+                    <p class="text-xs text-gray-400 mt-1">2023 - Previsão 06/2026</p>
+                    <p class="text-xs mt-3 leading-relaxed">Graduando em Análise e Desenvolvimento de Sistemas, com foco na gestão técnica e operacional de projetos tecnológicos. Com um olhar voltado para a Administração de TI, aprofundo conhecimentos em criação e gerenciamento de sistemas, visando a conformidade de dados, a mitigação de riscos e a eficiência dos processos digitais em ambientes organizacionais.</p>
+                </div>
+            </section>
+
+            <section>
+                <h3 class="text-2xl font-bold mb-6 flex items-center"><i class="fa-solid fa-certificate mr-4 text-cyan-400"></i>Cursos</h3>
+                <ul class="text-xs space-y-3">
+                    <a href="https://drive.google.com/drive/folders/1-szqfkNgWddxWfRPkfA19zBNnxaLfWeb?usp=sharing" target="_blank" class="block bg-white/5 p-3 rounded-lg hover:bg-white/20 transition"><i class="fa-solid fa-check mr-2"></i>Informática Básica (IEMA, 2022)</a>
+                    <a href="https://drive.google.com/drive/folders/1-szqfkNgWddxWfRPkfA19zBNnxaLfWeb?usp=sharing" target="_blank" class="block bg-white/5 p-3 rounded-lg hover:bg-white/20 transition"><i class="fa-solid fa-check mr-2"></i>Recepcionista (IEMA, 2022)</a>
+                    <a href="https://drive.google.com/drive/folders/1-szqfkNgWddxWfRPkfA19zBNnxaLfWeb?usp=sharing" target="_blank" class="block bg-white/5 p-3 rounded-lg hover:bg-white/20 transition"><i class="fa-solid fa-check mr-2"></i>Etiqueta Empresarial (Cursos Online SP, 2022)</a>
+                    <a href="https://drive.google.com/drive/folders/1-szqfkNgWddxWfRPkfA19zBNnxaLfWeb?usp=sharing" target="_blank" class="block bg-white/5 p-3 rounded-lg hover:bg-white/20 transition"><i class="fa-solid fa-check mr-2"></i>Código de Ética e Conduta (Gupy, 2025)</a>
+                    <a href="https://drive.google.com/drive/folders/1-szqfkNgWddxWfRPkfA19zBNnxaLfWeb?usp=sharing" target="_blank" class="block bg-white/5 p-3 rounded-lg hover:bg-white/20 transition"><i class="fa-solid fa-check mr-2"></i>Oratória e Apresentação (Cursos Online SP, 2022)</a>
+                    <a href="https://drive.google.com/drive/folders/1-szqfkNgWddxWfRPkfA19zBNnxaLfWeb?usp=sharing" target="_blank" class="block bg-white/5 p-3 rounded-lg hover:bg-white/20 transition"><i class="fa-solid fa-check mr-2"></i>Recolocação Profissional (Cursos Online SP, 2022)</a>
+                </ul>
+            </section>
         </div>
-    </header>
-
-    <main class="max-w-4xl mx-auto p-6">
-        
-        <section class="my-10">
-            <h2 class="text-2xl font-bold border-b-2 border-blue-900 mb-4">Experiência Profissional [cite: 5]</h2>
-            
-            <div class="bg-white p-6 rounded shadow mb-4">
-                <h3 class="font-bold text-lg">Suporte TI - Mateus Supermercados S.A [cite: 10]</h3>
-                <p class="text-sm text-gray-600">04/2025 - 02/2026 [cite: 10]</p>
-                <p class="mt-2">Atuação no CPD com suporte em automação comercial (PDVs, balanças, coletores), redes e manutenção de servidores, garantindo a continuidade das rotinas administrativas e operacionais. [cite: 10]</p>
-            </div>
-
-            <div class="bg-white p-6 rounded shadow">
-                <h3 class="font-bold text-lg">Professor de Informática - Profissionalize+ [cite: 6, 9]</h3>
-                <p class="text-sm text-gray-600">01/2024 - 12/2024 [cite: 6]</p>
-                <p class="mt-2">Instrutor de informática e gestão tecnológica, focando na capacitação profissional e treinamentos avançados no Pacote Office. [cite: 7, 8]</p>
-            </div>
-        </section>
-
-        <section class="my-10">
-            <h2 class="text-2xl font-bold border-b-2 border-blue-900 mb-4">Formação Acadêmica [cite: 11]</h2>
-            <div class="bg-white p-6 rounded shadow">
-                <h3 class="font-bold text-lg">Análise e Desenvolvimento de Sistemas [cite: 12]</h3>
-                <p>Uniasselvi - Presidente Dutra/MA [cite: 12]</p>
-                <p class="text-sm text-gray-600">2023 - Previsão 06/2026 [cite: 13]</p>
-                <p class="mt-2">Foco em gestão técnica de projetos, administração de TI, conformidade de dados e eficiência de processos digitais. [cite: 14, 15]</p>
-            </div>
-        </section>
-
-        <section class="my-10" x-data="{ open: false }">
-            <h2 class="text-2xl font-bold border-b-2 border-blue-900 mb-4 cursor-pointer" @click="open = !open">
-                Cursos e Certificações ▾
-            </h2>
-            <ul class="grid grid-cols-1 md:grid-cols-2 gap-4" x-show="open">
-                <li class="bg-blue-50 p-4 rounded">Informática Básica (IEMA, 2022) [cite: 17]</li>
-                <li class="bg-blue-50 p-4 rounded">Recepcionista (IEMA, 2022) [cite: 18]</li>
-                <li class="bg-blue-50 p-4 rounded">Etiqueta Empresarial (Cursos Online SP, 2022) [cite: 19]</li>
-                <li class="bg-blue-50 p-4 rounded">Código de Ética e Conduta (Gupy, 2025) [cite: 20]</li>
-                <li class="bg-blue-50 p-4 rounded">Oratória e Apresentação (Cursos Online SP, 2022) [cite: 21]</li>
-                <li class="bg-blue-50 p-4 rounded">Recolocação Profissional (Cursos Online SP, 2022) [cite: 22]</li>
-            </ul>
-        </section>
-
-    </main>
-
-    <footer class="text-center p-6 bg-gray-200">
-        <p>&copy; 2026 Harryson Hussem de Almeida Silva</p>
-    </footer>
-
+    </div>
 </body>
 </html>
