@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harryson Hussem | Portfólio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <header class="bg-blue-900 text-white p-10 text-center">
+        <h1 class="text-4xl font-bold">Harryson Hussem de Almeida Silva</h1>
+        <p class="text-xl mt-2">Graduando em Análise e Desenvolvimento de Sistemas | Suporte TI</p>
+        <div class="mt-4">
+            <p>📍 Presidente Dutra - MA [cite: 2]</p>
+            <p>📧 almeida.hussem@gmail.com [cite: 4]</p>
+            <p>📞 (99) 9 84644796 [cite: 3]</p>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto p-6">
+        
+        <section class="my-10">
+            <h2 class="text-2xl font-bold border-b-2 border-blue-900 mb-4">Experiência Profissional [cite: 5]</h2>
+            
+            <div class="bg-white p-6 rounded shadow mb-4">
+                <h3 class="font-bold text-lg">Suporte TI - Mateus Supermercados S.A [cite: 10]</h3>
+                <p class="text-sm text-gray-600">04/2025 - 02/2026 [cite: 10]</p>
+                <p class="mt-2">Atuação no CPD com suporte em automação comercial (PDVs, balanças, coletores), redes e manutenção de servidores, garantindo a continuidade das rotinas administrativas e operacionais. [cite: 10]</p>
+            </div>
+
+            <div class="bg-white p-6 rounded shadow">
+                <h3 class="font-bold text-lg">Professor de Informática - Profissionalize+ [cite: 6, 9]</h3>
+                <p class="text-sm text-gray-600">01/2024 - 12/2024 [cite: 6]</p>
+                <p class="mt-2">Instrutor de informática e gestão tecnológica, focando na capacitação profissional e treinamentos avançados no Pacote Office. [cite: 7, 8]</p>
+            </div>
+        </section>
+
+        <section class="my-10">
+            <h2 class="text-2xl font-bold border-b-2 border-blue-900 mb-4">Formação Acadêmica [cite: 11]</h2>
+            <div class="bg-white p-6 rounded shadow">
+                <h3 class="font-bold text-lg">Análise e Desenvolvimento de Sistemas [cite: 12]</h3>
+                <p>Uniasselvi - Presidente Dutra/MA [cite: 12]</p>
+                <p class="text-sm text-gray-600">2023 - Previsão 06/2026 [cite: 13]</p>
+                <p class="mt-2">Foco em gestão técnica de projetos, administração de TI, conformidade de dados e eficiência de processos digitais. [cite: 14, 15]</p>
+            </div>
+        </section>
+
+        <section class="my-10" x-data="{ open: false }">
+            <h2 class="text-2xl font-bold border-b-2 border-blue-900 mb-4 cursor-pointer" @click="open = !open">
+                Cursos e Certificações ▾
+            </h2>
+            <ul class="grid grid-cols-1 md:grid-cols-2 gap-4" x-show="open">
+                <li class="bg-blue-50 p-4 rounded">Informática Básica (IEMA, 2022) [cite: 17]</li>
+                <li class="bg-blue-50 p-4 rounded">Recepcionista (IEMA, 2022) [cite: 18]</li>
+                <li class="bg-blue-50 p-4 rounded">Etiqueta Empresarial (Cursos Online SP, 2022) [cite: 19]</li>
+                <li class="bg-blue-50 p-4 rounded">Código de Ética e Conduta (Gupy, 2025) [cite: 20]</li>
+                <li class="bg-blue-50 p-4 rounded">Oratória e Apresentação (Cursos Online SP, 2022) [cite: 21]</li>
+                <li class="bg-blue-50 p-4 rounded">Recolocação Profissional (Cursos Online SP, 2022) [cite: 22]</li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer class="text-center p-6 bg-gray-200">
+        <p>&copy; 2026 Harryson Hussem de Almeida Silva</p>
+    </footer>
+
+</body>
+</html>
